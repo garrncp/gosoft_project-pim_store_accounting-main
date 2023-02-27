@@ -1,0 +1,911 @@
+user:
+    username:       'out-nattananboo'
+    password:       'Nattanan426674'
+module:
+    store_audit:             'SA'
+menu:
+    sam_6200:       'SAM6200 - หน้าจอค้นหาผลการตรวจนับ (ทีมบัญชี)'
+message :
+    date_alert : 'กรุณาระบุวันที่ให้ครบ'
+    accept  : 'ACCEPT'
+
+tc_01:
+    date_from:  '011263'
+    date_to:  '011263'
+    area:   '10'
+    store: '00034'
+    type: 'FC00'
+    branch: 'สาขา เตาปูน-1'
+    status: 'Import'
+    price: '169.00'
+    sell: '0.00'
+    issue_date: '06/12/65'
+    count : 'Normal 100%'
+    counting_date   : '01/12/63'
+
+tc_02:
+    date_from:  '021263'
+    date_to:  '021263'
+    area:   '20'
+    store: '05054'
+    type: 'C000'
+    branch: 'สาขา เศรษฐกิจ 26'
+    status: 'ข้อมูลไม่ถูกต้อง'
+    price: '4,643.00'
+    sell: '0.00'
+    issue_date: '05/12/65'
+    count : 'Sampling'
+    counting_date   : '02/12/63'
+
+
+tc_03:
+    date_from:  '011263'
+    date_to:  '011263'
+    area:   '20'
+    store: '00063'
+    type: 'FB10'
+    branch: 'สาขา นางลิ้นจี่'
+    status: 'ข้อมูลถูกต้อง'
+    price: '-8,783.00'
+    sell: '0.00'
+    issue_date: '06/12/65'
+    count : 'Normal 100%'
+    counting_date   : '01/12/63'
+
+tc_04:
+    date_from:  '011263'
+    date_to:  '011263'
+    area:   '10'
+    store: '05764'
+    type: 'FB20'
+    branch: 'สาขา โบตานี(คลองหลวง)'
+    status: 'ผ่านการตรวจสอบจากทางบัญชี'
+    price: '-9,016.00'
+    sell: '0.00'
+    issue_date: '06/12/65'
+    count : 'Sampling'
+    counting_date   : '01/12/63'
+
+tc_05:
+    date_from:  '021263'
+    date_to:  '021263'
+    area:   '20'
+    store: '07808'
+    type: 'C000'
+    branch: 'สาขา พุทธมณฑลสาย 1'
+    status: 'ยืนยันข้อมูลถูกต้อง'
+    price: '-14,261.50'
+    sell: '0.00'
+    issue_date: '06/12/65'
+    count : 'Sampling'
+    counting_date   : '02/12/63'
+
+search_data_04:
+    counting_date :
+        row_1:  '01/12/63'
+        row_2:  '01/12/63'
+        row_3:  '01/12/63'
+        row_4:  '02/12/63'
+        row_5:  '02/12/63'
+    store_code :
+        row_1:  '00034'
+        row_2:  '05764'
+        row_3:  '00063'
+        row_4:  '05054'
+        row_5:  '07808'
+    branch :
+        row_1:  'สาขา เตาปูน-1'
+        row_2:  'สาขา โบตานี(คลองหลวง)'
+        row_3:  'สาขา นางลิ้นจี่'
+        row_4:  'สาขา เศรษฐกิจ 26'
+        row_5:  'สาขา พุทธมณฑลสาย 1'
+    area :
+        row_1:  '10'
+        row_2:  '10'
+        row_3:  '20'
+        row_4:  '20'
+        row_5:  '20'
+    type :
+        row_1:  'FC00'
+        row_2:  'FB20'
+        row_3:  'FB10'
+        row_4:  'C000'
+        row_5:  'C000'
+    status :
+        row_1:  'Import'
+        row_2:  'ผ่านการตรวจสอบจากทางบัญชี'
+        row_3:  'ข้อมูลถูกต้อง'
+        row_4:  'ข้อมูลไม่ถูกต้อง'
+        row_5:  'ยืนยันข้อมูลถูกต้อง'
+    official_price :
+        row_1:  '169.00'
+        row_2:  '-9,016.00'
+        row_3:  '-8,783.00'
+        row_4:  '4,643.00'
+        row_5:  '-14,261.50'
+    adj_sell :
+        row_1:  '0.00'
+        row_2:  '0.00'
+        row_3:  '0.00'
+        row_4:  '0.00'
+        row_5:  '0.00'
+    issue_date :
+        row_1:  '06/12/65'
+        row_2:  '06/12/65'
+        row_3:  '06/12/65'
+        row_4:  '05/12/65'
+        row_5:  '06/12/65'
+    count :
+        row_1:  'Normal 100%'
+        row_2:  'Sampling'
+        row_3:  'Normal 100%'
+        row_4:  'Sampling'
+        row_5:  'Sampling'
+
+tc_06:
+    date_from:  '011263'
+    date_to:  '011263'
+    area:   '10'
+    store: '00034'
+    type: 'FC00'
+    branch: 'สาขา เตาปูน-1'
+    status: 'Import'
+    price: '169.00'
+    sell: '0.00'
+    issue_date: '06/12/65'
+    count : 'Normal 100%'
+    counting_date   : '01/12/63'
+
+tc_07:
+    date_from:  '011263'
+    date_to:  '011263'
+    area:   '10'
+    store: '05764'
+    type: 'FB20'
+    branch: 'สาขา โบตานี(คลองหลวง)'
+    status: 'ผ่านการตรวจสอบจากทางบัญชี'
+    price: '-9,016.00'
+    sell: '0.00'
+    issue_date: '06/12/65'
+    count : 'Sampling'
+    counting_date   : '01/12/63'
+
+search_data_05:
+    counting_date :
+        row_1:  '01/12/63'
+        row_2:  '01/12/63'
+    store_code :
+        row_1:  '00034'
+        row_2:  '05764'
+    branch :
+        row_1:  'สาขา เตาปูน-1'
+        row_2:  'สาขา โบตานี(คลองหลวง)'
+    area :
+        row_1:  '10'
+        row_2:  '10'
+    type :
+        row_1:  'FC00'
+        row_2:  'FB20'
+    status :
+        row_1:  'Import'
+        row_2:  'ผ่านการตรวจสอบจากทางบัญชี'
+    official_price :
+        row_1:  '169.00'
+        row_2:  '-9,016.00'
+    adj_sell :
+        row_1:  '0.00'
+        row_2:  '0.00'
+    issue_date :
+        row_1:  '06/12/65'
+        row_2:  '06/12/65'
+    count :
+        row_1:  'Normal 100%'
+        row_2:  'Sampling'
+
+tc_08:
+    date_from:  '011263'
+    date_to:  '021263'
+    area:   '10'
+    store: '05764'
+    type: 'FB20'
+    branch: 'สาขา โบตานี(คลองหลวง)'
+    status: 'ผ่านการตรวจสอบจากทางบัญชี'
+    price: '-9,016.00'
+    sell: '0.00'
+    issue_date: '06/12/65'
+    count : 'Sampling'
+    counting_date   : '01/12/63'
+
+tc_09:
+    date_from:  '011263'
+    date_to:  '021263'
+    area:   '20'
+    store: '07808'
+    type: 'C000'
+    branch: 'สาขา พุทธมณฑลสาย 1'
+    status: 'ยืนยันข้อมูลถูกต้อง'
+    price: '-14,261.50'
+    sell: '0.00'
+    issue_date: '06/12/65'
+    count : 'Sampling'
+    counting_date   : '02/12/63'
+
+search_data_06:
+    counting_date :
+        row_1:  '01/12/63'
+        row_2:  '02/12/63'
+    store_code :
+        row_1:  '05764'
+        row_2:  '07808'
+    branch :
+        row_1:  'สาขา โบตานี(คลองหลวง)'
+        row_2:  'สาขา พุทธมณฑลสาย 1'
+    area :
+        row_1:  '10'
+        row_2:  '20'
+    type :
+        row_1:  'FB20'
+        row_2:  'C000'
+    status :
+        row_1:  'ผ่านการตรวจสอบจากทางบัญชี'
+        row_2:  'ยืนยันข้อมูลถูกต้อง'
+    official_price :
+        row_1:  '-9,016.00'
+        row_2:  '-14,261.50'
+    adj_sell :
+        row_1:  '0.00'
+        row_2:  '0.00'
+    issue_date :
+        row_1:  '06/12/65'
+        row_2:  '06/12/65'
+    count :
+        row_1:  'Sampling'
+        row_2:  'Sampling'
+
+tc_10:
+    date_from:  '011263'
+    date_to:  '021263'
+    area:   '10'
+    store: '00034'
+    type: 'FC00'
+    branch: 'สาขา เตาปูน-1'
+    status: 'Import'
+    price: '169.00'
+    sell: '0.00'
+    issue_date: '06/12/65'
+    count : 'Normal 100%'
+    counting_date   : '01/12/63'
+
+tc_11:
+    date_from:  '011263'
+    date_to:  '021263'
+    area:   '20'
+    store: '05054'
+    type: 'C000'
+    branch: 'สาขา เศรษฐกิจ 26'
+    status: 'ข้อมูลไม่ถูกต้อง'
+    price: '4,643.00'
+    sell: '0.00'
+    issue_date: '05/12/65'
+    count : 'Sampling'
+    counting_date   : '02/12/63'
+
+search_data_07:
+    counting_date :
+        row_1:  '01/12/63'
+        row_2:  '02/12/63'
+    store_code :
+        row_1:  '00034'
+        row_2:  '05054'
+    branch :
+        row_1:  'สาขา เตาปูน-1'
+        row_2:  'สาขา เศรษฐกิจ 26'
+    area :
+        row_1:  '10'
+        row_2:  '20'
+    type :
+        row_1:  'FC00'
+        row_2:  'C000'
+    status :
+        row_1:  'Import'
+        row_2:  'ข้อมูลไม่ถูกต้อง'
+    official_price :
+        row_1:  '169.00'
+        row_2:  '4,643.00'
+    adj_sell :
+        row_1:  '0.00'
+        row_2:  '0.00'
+    issue_date :
+        row_1:  '06/12/65'
+        row_2:  '05/12/65'
+    count :
+        row_1:  'Normal 100%'
+        row_2:  'Sampling'
+
+tc_12:
+    date_from:  '011263'
+    date_to:  '021263'
+    area:   '10'
+    store: '00034'
+    type: 'FC00'
+    branch: 'สาขา เตาปูน-1'
+    status: 'Import'
+    price: '169.00'
+    sell: '0.00'
+    issue_date: '06/12/65'
+    count : 'Normal 100%'
+    counting_date   : '01/12/63'
+
+tc_13:
+    date_from:  '011263'
+    date_to:  '021263'
+    area:   '10'
+    store: '05764'
+    type: 'FB20'
+    branch: 'สาขา โบตานี(คลองหลวง)'
+    status: 'ผ่านการตรวจสอบจากทางบัญชี'
+    price: '-9,016.00'
+    sell: '0.00'
+    issue_date: '06/12/65'
+    count : 'Sampling'
+    counting_date   : '01/12/63'
+
+tc_14:
+    date_from:  '011263'
+    date_to:  '021263'
+    area:   '20'
+    store: '00063'
+    type: 'FB10'
+    branch: 'สาขา นางลิ้นจี่'
+    status: 'ข้อมูลถูกต้อง'
+    price: '-8,783.00'
+    sell: '0.00'
+    issue_date: '06/12/65'
+    count : 'Normal 100%'
+    counting_date   : '01/12/63'
+
+tc_15:
+    date_from:  '011263'
+    date_to:  '021263'
+    area:   '20'
+    store: '05054'
+    type: 'C000'
+    branch: 'สาขา เศรษฐกิจ 26'
+    status: 'ข้อมูลไม่ถูกต้อง'
+    price: '4,643.00'
+    sell: '0.00'
+    issue_date: '05/12/65'
+    count : 'Sampling'
+    counting_date   : '02/12/63'
+
+tc_16:
+    date_from:  '011263'
+    date_to:  '021263'
+    area:   '20'
+    store: '07808'
+    type: 'C000'
+    branch: 'สาขา พุทธมณฑลสาย 1'
+    status: 'ยืนยันข้อมูลถูกต้อง'
+    price: '-14,261.50'
+    sell: '0.00'
+    issue_date: '06/12/65'
+    count : 'Sampling'
+    counting_date   : '02/12/63'
+
+search_data_08:
+    counting_date :
+        row_1:  '01/12/63'
+        row_2:  '01/12/63'
+        row_3:  '01/12/63'
+        row_4:  '02/12/63'
+        row_5:  '02/12/63'
+    store_code :
+        row_1:  '00034'
+        row_2:  '05764'
+        row_3:  '00063'
+        row_4:  '05054'
+        row_5:  '07808'
+    branch :
+        row_1:  'สาขา เตาปูน-1'
+        row_2:  'สาขา โบตานี(คลองหลวง)'
+        row_3:  'สาขา นางลิ้นจี่'
+        row_4:  'สาขา เศรษฐกิจ 26'
+        row_5:  'สาขา พุทธมณฑลสาย 1'
+    area :
+        row_1:  '10'
+        row_2:  '10'
+        row_3:  '20'
+        row_4:  '20'
+        row_5:  '20'
+    type :
+        row_1:  'FC00'
+        row_2:  'FB20'
+        row_3:  'FB10'
+        row_4:  'C000'
+        row_5:  'C000'
+    status :
+        row_1:  'Import'
+        row_2:  'ผ่านการตรวจสอบจากทางบัญชี'
+        row_3:  'ข้อมูลถูกต้อง'
+        row_4:  'ข้อมูลไม่ถูกต้อง'
+        row_5:  'ยืนยันข้อมูลถูกต้อง'
+    official_price :
+        row_1:  '169.00'
+        row_2:  '-9,016.00'
+        row_3:  '-8,783.00'
+        row_4:  '4,643.00'
+        row_5:  '-14,261.50'
+    adj_sell :
+        row_1:  '0.00'
+        row_2:  '0.00'
+        row_3:  '0.00'
+        row_4:  '0.00'
+        row_5:  '0.00'
+    issue_date :
+        row_1:  '06/12/65'
+        row_2:  '06/12/65'
+        row_3:  '06/12/65'
+        row_4:  '05/12/65'
+        row_5:  '06/12/65'
+    count :
+        row_1:  'Normal 100%'
+        row_2:  'Sampling'
+        row_3:  'Normal 100%'
+        row_4:  'Sampling'
+        row_5:  'Sampling'
+
+tc_17:
+    date_from:  '011263'
+    date_to:  '021263'
+    area:   '10'
+    store: '00034'
+    type: 'FC00'
+    branch: 'สาขา เตาปูน-1'
+    status: 'Import'
+    price: '169.00'
+    sell: '0.00'
+    issue_date: '06/12/65'
+    count : 'Normal 100%'
+    counting_date   : '01/12/63'
+
+tc_18:
+    date_from:  '011263'
+    date_to:  '021263'
+    area:   '10'
+    store: '05764'
+    type: 'FB20'
+    branch: 'สาขา โบตานี(คลองหลวง)'
+    status: 'ผ่านการตรวจสอบจากทางบัญชี'
+    price: '-9,016.00'
+    sell: '0.00'
+    issue_date: '06/12/65'
+    count : 'Sampling'
+    counting_date   : '01/12/63'
+
+tc_19:
+    date_from:  '011263'
+    date_to:  '021263'
+    area:   '20'
+    store: '00063'
+    type: 'FB10'
+    branch: 'สาขา นางลิ้นจี่'
+    status: 'ข้อมูลถูกต้อง'
+    price: '-8,783.00'
+    sell: '0.00'
+    issue_date: '06/12/65'
+    count : 'Normal 100%'
+    counting_date   : '01/12/63'
+
+tc_20:
+    date_from:  '011263'
+    date_to:  '021263'
+    area:   '20'
+    store: '05054'
+    type: 'C000'
+    branch: 'สาขา เศรษฐกิจ 26'
+    status: 'ข้อมูลไม่ถูกต้อง'
+    price: '4,643.00'
+    sell: '0.00'
+    issue_date: '05/12/65'
+    count : 'Sampling'
+    counting_date   : '02/12/63'
+
+tc_21:
+    date_from:  '011263'
+    date_to:  '021263'
+    area:   '20'
+    store: '07808'
+    type: 'C000'
+    branch: 'สาขา พุทธมณฑลสาย 1'
+    status: 'ยืนยันข้อมูลถูกต้อง'
+    price: '-14,261.50'
+    sell: '0.00'
+    issue_date: '06/12/65'
+    count : 'Sampling'
+    counting_date   : '02/12/63'
+
+search_data_09:
+    counting_date :
+        row_1:  '01/12/63'
+        row_2:  '01/12/63'
+        row_3:  '01/12/63'
+        row_4:  '02/12/63'
+        row_5:  '02/12/63'
+    store_code :
+        row_1:  '00034'
+        row_2:  '05764'
+        row_3:  '00063'
+        row_4:  '05054'
+        row_5:  '07808'
+    branch :
+        row_1:  'สาขา เตาปูน-1'
+        row_2:  'สาขา โบตานี(คลองหลวง)'
+        row_3:  'สาขา นางลิ้นจี่'
+        row_4:  'สาขา เศรษฐกิจ 26'
+        row_5:  'สาขา พุทธมณฑลสาย 1'
+    area :
+        row_1:  '10'
+        row_2:  '10'
+        row_3:  '20'
+        row_4:  '20'
+        row_5:  '20'
+    type :
+        row_1:  'FC00'
+        row_2:  'FB20'
+        row_3:  'FB10'
+        row_4:  'C000'
+        row_5:  'C000'
+    status :
+        row_1:  'Import'
+        row_2:  'ผ่านการตรวจสอบจากทางบัญชี'
+        row_3:  'ข้อมูลถูกต้อง'
+        row_4:  'ข้อมูลไม่ถูกต้อง'
+        row_5:  'ยืนยันข้อมูลถูกต้อง'
+    official_price :
+        row_1:  '169.00'
+        row_2:  '-9,016.00'
+        row_3:  '-8,783.00'
+        row_4:  '4,643.00'
+        row_5:  '-14,261.50'
+    adj_sell :
+        row_1:  '0.00'
+        row_2:  '0.00'
+        row_3:  '0.00'
+        row_4:  '0.00'
+        row_5:  '0.00'
+    issue_date :
+        row_1:  '06/12/65'
+        row_2:  '06/12/65'
+        row_3:  '06/12/65'
+        row_4:  '05/12/65'
+        row_5:  '06/12/65'
+    count :
+        row_1:  'Normal 100%'
+        row_2:  'Sampling'
+        row_3:  'Normal 100%'
+        row_4:  'Sampling'
+        row_5:  'Sampling'
+
+tc_22:
+    date_from:  '011263'
+    date_to:  '021263'
+    area:   '10'
+    store: '00034'
+    type: 'FC00'
+    branch: 'สาขา เตาปูน-1'
+    status: 'Import'
+    price: '169.00'
+    sell: '0.00'
+    issue_date: '06/12/65'
+    count : 'Normal 100%'
+    counting_date   : '01/12/63'
+
+search_data_10:
+    counting_date :
+        row_1:  '01/12/63'
+    store_code :
+        row_1:  '00034'
+    branch :
+        row_1:  'สาขา เตาปูน-1'
+    area :
+        row_1:  '10'
+    type :
+        row_1:  'FC00'
+    status :
+        row_1:  'Import'
+    official_price :
+        row_1:  '169.00'
+    adj_sell :
+        row_1:  '0.00'
+    issue_date :
+        row_1:  '06/12/65'
+    count :
+        row_1:  'Normal 100%'
+
+tc_23:
+    date_from:  '011263'
+    date_to:  '021263'
+    area:   '20'
+    store: '05054'
+    type: 'C000'
+    branch: 'สาขา เศรษฐกิจ 26'
+    status: 'ข้อมูลไม่ถูกต้อง'
+    price: '4,643.00'
+    sell: '0.00'
+    issue_date: '05/12/65'
+    count : 'Sampling'
+    counting_date   : '02/12/63'
+
+search_data_11:
+    counting_date :
+        row_1:  '02/12/63'
+    store_code :
+        row_1:  '05054'
+    branch :
+        row_1:  'สาขา เศรษฐกิจ 26'
+    area :
+        row_1:  '20'
+    type :
+        row_1:  'C000'
+    status :
+        row_1:  'ข้อมูลไม่ถูกต้อง'
+    official_price :
+        row_1:  '4,643.00'
+    adj_sell :
+        row_1:  '0.00'
+    issue_date :
+        row_1:  '05/12/65'
+    count :
+        row_1:  'Sampling'
+
+tc_24:
+    date_from:  '011263'
+    date_to:  '021263'
+    area:   '20'
+    store: '00063'
+    type: 'FB10'
+    branch: 'สาขา นางลิ้นจี่'
+    status: 'ข้อมูลถูกต้อง'
+    price: '-8,783.00'
+    sell: '0.00'
+    issue_date: '06/12/65'
+    count : 'Normal 100%'
+    counting_date   : '01/12/63'
+
+search_data_12:
+    counting_date :
+        row_1:  '01/12/63'
+    store_code :
+        row_1:  '00063'
+    branch :
+        row_1:  'สาขา นางลิ้นจี่'
+    area :
+        row_1:  '20'
+    type :
+        row_1:  'FB10'
+    status :
+        row_1:  'ข้อมูลถูกต้อง'
+    official_price :
+        row_1:  '-8,783.00'
+    adj_sell :
+        row_1:  '0.00'
+    issue_date :
+        row_1:  '06/12/65'
+    count :
+        row_1:  'Normal 100%'
+
+tc_25:
+    date_from:  '011263'
+    date_to:  '021263'
+    area:   '10'
+    store: '05764'
+    type: 'FB20'
+    branch: 'สาขา โบตานี(คลองหลวง)'
+    status: 'ผ่านการตรวจสอบจากทางบัญชี'
+    price: '-9,016.00'
+    sell: '0.00'
+    issue_date: '06/12/65'
+    count : 'Sampling'
+    counting_date   : '01/12/63'
+
+search_data_13:
+    counting_date :
+        row_1:  '01/12/63'
+    store_code :
+        row_1:  '05764'
+    branch :
+        row_1:  'สาขา โบตานี(คลองหลวง)'
+    area :
+        row_1:  '10'
+    type :
+        row_1:  'FB20'
+    status :
+        row_1:  'ผ่านการตรวจสอบจากทางบัญชี'
+    official_price :
+        row_1:  '-9,016.00'
+    adj_sell :
+        row_1:  '0.00'
+    issue_date :
+        row_1:  '06/12/65'
+    count :
+        row_1:  'Sampling'
+
+tc_26:
+    date_from:  '011263'
+    date_to:  '021263'
+    area:   '20'
+    store: '07808'
+    type: 'C000'
+    branch: 'สาขา พุทธมณฑลสาย 1'
+    status: 'ยืนยันข้อมูลถูกต้อง'
+    price: '-14,261.50'
+    sell: '0.00'
+    issue_date: '06/12/65'
+    count : 'Sampling'
+    counting_date   : '02/12/63'
+
+search_data_14:
+    counting_date :
+        row_1:  '02/12/63'
+    store_code :
+        row_1:  '07808'
+    branch :
+        row_1:  'สาขา พุทธมณฑลสาย 1'
+    area :
+        row_1:  '20'
+    type :
+        row_1:  'C000'
+    status :
+        row_1:  'ยืนยันข้อมูลถูกต้อง'
+    official_price :
+        row_1:  '-14,261.50'
+    adj_sell :
+        row_1:  '0.00'
+    issue_date :
+        row_1:  '06/12/65'
+    count :
+        row_1:  'Sampling'
+
+tc_27:
+    date_from:  '011263'
+    date_to:  '021263'
+    area:   '10'
+    store: '00034'
+    type: 'FC00'
+    branch: 'สาขา เตาปูน-1'
+    status: 'Import'
+    price: '169.00'
+    sell: '0.00'
+    issue_date: '06/12/65'
+    count : 'Normal 100%'
+    counting_date   : '01/12/63'
+
+tc_28:
+    date_from:  '011263'
+    date_to:  '021263'
+    area:   '20'
+    store: '00063'
+    type: 'FB10'
+    branch: 'สาขา นางลิ้นจี่'
+    status: 'ข้อมูลถูกต้อง'
+    price: '-8,783.00'
+    sell: '0.00'
+    issue_date: '06/12/65'
+    count : 'Normal 100%'
+    counting_date   : '01/12/63'
+
+search_data_15:
+    counting_date :
+        row_1:  '01/12/63'
+        row_2:  '01/12/63'
+    store_code :
+        row_1:  '00034'
+        row_2:  '00063'
+    branch :
+        row_1:  'สาขา เตาปูน-1'
+        row_2:  'สาขา นางลิ้นจี่'
+    area :
+        row_1:  '10'
+        row_2:  '20'
+    type :
+        row_1:  'FC00'
+        row_2:  'FB10'
+    status :
+        row_1:  'Import'
+        row_2:  'ข้อมูลถูกต้อง'
+    official_price :
+        row_1:  '169.00'
+        row_2:  '-8,783.00'
+    adj_sell :
+        row_1:  '0.00'
+        row_2:  '0.00'
+    issue_date :
+        row_1:  '06/12/65'
+        row_2:  '06/12/65'
+    count :
+        row_1:  'Normal 100%'
+        row_2:  'Normal 100%'
+
+tc_29:
+    date_from:  '011263'
+    date_to:  '021263'
+    area:   '10'
+    store: '05764'
+    type: 'FB20'
+    branch: 'สาขา โบตานี(คลองหลวง)'
+    status: 'ผ่านการตรวจสอบจากทางบัญชี'
+    price: '-9,016.00'
+    sell: '0.00'
+    issue_date: '06/12/65'
+    count : 'Sampling'
+    counting_date   : '01/12/63'
+
+tc_30:
+    date_from:  '011263'
+    date_to:  '021263'
+    area:   '20'
+    store: '05054'
+    type: 'C000'
+    branch: 'สาขา เศรษฐกิจ 26'
+    status: 'ข้อมูลไม่ถูกต้อง'
+    price: '4,643.00'
+    sell: '0.00'
+    issue_date: '05/12/65'
+    count : 'Sampling'
+    counting_date   : '02/12/63'
+
+tc_31:
+    date_from:  '011263'
+    date_to:  '021263'
+    area:   '20'
+    store: '07808'
+    type: 'C000'
+    branch: 'สาขา พุทธมณฑลสาย 1'
+    status: 'ยืนยันข้อมูลถูกต้อง'
+    price: '-14,261.50'
+    sell: '0.00'
+    issue_date: '06/12/65'
+    count : 'Sampling'
+    counting_date   : '02/12/63'
+
+search_data_16:
+    counting_date :
+        row_1:  '01/12/63'
+        row_2:  '02/12/63'
+        row_3:  '02/12/63'
+    store_code :
+        row_1:  '05764'
+        row_2:  '05054'
+        row_3:  '07808'
+    branch :
+        row_1:  'สาขา โบตานี(คลองหลวง)'
+        row_2:  'สาขา เศรษฐกิจ 26'
+        row_3:  'สาขา พุทธมณฑลสาย 1'
+    area :
+        row_1:  '10'
+        row_2:  '20'
+        row_3:  '20'
+    type :
+        row_1:  'FB20'
+        row_2:  'C000'
+        row_3:  'C000'
+    status :
+        row_1:  'ผ่านการตรวจสอบจากทางบัญชี'
+        row_2:  'ข้อมูลไม่ถูกต้อง'
+        row_3:  'ยืนยันข้อมูลถูกต้อง'
+    official_price :
+        row_1:  '-9,016.00'
+        row_2:  '4,643.00'
+        row_3:  '-14,261.50'
+    adj_sell :
+        row_1:  '0.00'
+        row_2:  '0.00'
+        row_3:  '0.00'
+    issue_date :
+        row_1:  '06/12/65'
+        row_2:  '05/12/65'
+        row_3:  '06/12/65'
+    count :
+        row_1:  'Sampling'
+        row_2:  'Sampling'
+        row_3:  'Sampling'
